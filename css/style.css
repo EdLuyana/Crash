@@ -1,0 +1,200 @@
+/*--TOOLS--*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: crashfont;
+    src: url(../font/crash-a-like.ttf);
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.fontcrash {
+    font-family: crashfont;
+    color: orange;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width80 {
+    width: 80%;
+    margin: auto;
+}
+
+.center {
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.width35{
+    width: 20%;
+}
+/*--HEADER--*/
+#bgcrash {
+    background-image: url(../img/crash1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#bouton {
+    padding: 10px 50px;
+    background-color: yellow;
+    border-radius: 100vmax;
+    z-index: 2000;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: 3rem;
+    border-color: orange;
+    color: white;
+    -webkit-text-stroke: 1px orange;
+}
+#voileblanc{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255,0.7);
+}
+#logohead {
+    width: 25%;
+    height: auto;
+    z-index: 2000;
+    position: absolute;
+    left: 37%;
+    top: 2%;
+}
+
+#menu {
+    width: 4%;
+    z-index: 2000;
+    position: absolute;
+    right: 10%;
+    top: 5%;
+}
+
+.string {
+    background-color: yellow;
+    padding: 2px;
+    height: 0;
+    margin: 30px 0;
+    list-style: none;
+}
+
+/*--MAIN--*/
+/*SECTION1*/
+.sectionMarg {
+    width: 60%;
+    margin: auto;
+}
+
+.BBC {
+    width: 200px;
+    height: auto;
+}
+
+#article1 {
+    width: 60%;
+}
+
+#part1 {
+    padding: 40px;
+    color: rgb(5, 61, 165);
+}
+
+#titleMid {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*SECTION2*/
+#section2 {
+    background-color: rgb(32, 95, 211);
+    border: solid orange;
+    width: 100%;
+    height: 35vh;
+}
+
+.cJone {
+    color: yellow;
+    font-size: 4rem;
+    margin-top: 30px;
+}
+
+/*SECTION3*/
+#titleEnd {
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#screen {
+    position: relative;
+}
+
+#vaAGoch {
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    left: 4%;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+#vaADrouate {
+    position: absolute;
+    z-index: 1000;
+    top: 40%;
+    right: 4%;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+/*--FOOTER--*/
+#cLeFoot {
+    margin-top: 5%;
+    background-color: orange;
+    height: 20vh;
+}
+
+#theMask {
+    width: 15%;
+    height: auto;
+    margin-left: 10%;
+}
+#links{
+    padding-top: 25px;
+    color: white;
+    list-style: none;
+}
+#logobottom{
+    margin-right: 5%;
+}
